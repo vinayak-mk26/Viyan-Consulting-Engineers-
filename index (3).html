@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Vinayak Madhukar Kadam | BIM Engineer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", Arial, sans-serif;
+    }
+
+    body {
+      color: #1f2937;
+      background-color: #f8fafc; /* soft general background */
+    }
+
+    .container {
+      max-width: 1400px;
+      margin: auto;
+      padding: 30px;
+    }
+
+    .card {
+      background: rgba(255,192,203,0.15); /* faint pinkish background */
+      backdrop-filter: blur(5px);
+      border-radius: 14px;
+      padding: 24px;
+      margin-bottom: 24px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    }
+
+    /* ===== HEADER ===== */
+    header {
+      text-align: center;
+      padding: 60px 20px;
+      position: relative;
+      background-color: #dbeafe; /* faint light blue */
+      color: #2c003e; /* dark violet/black text */
+      border-radius: 14px;
+    }
+
+    header h1 {
+      font-size: 44px;
+      color: #2c003e;
+    }
+
+    header h2 {
+      font-size: 22px;
+      margin-top: 8px;
+      font-weight: 500;
+      color: #2c003e;
+    }
+
+    header p {
+      margin-top: 12px;
+      font-size: 16px;
+      color: #2c003e;
+    }
+
+    .header-links {
+      margin-top: 20px;
+    }
+
+    .header-links a {
+      display: inline-block;
+      text-decoration: none;
+      padding: 10px 20px;
+      margin: 6px;
+      border-radius: 22px;
+      background: rgba(15,23,42,0.85);
+      color: #fff;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    /* ===== FLOATING BUTTONS ===== */
+    .floating-links {
+      position: fixed;
+      right: 20px;
+      top: 40%;
+      display: none;
+      flex-direction: column;
+      gap: 10px;
+      z-index: 999;
+    }
+
+    .floating-links a {
+      text-decoration: none;
+      padding: 10px 16px;
+      background: rgba(15,23,42,0.9);
+      color: white;
+      border-radius: 10px;
+      font-size: 13px;
+      font-weight: 600;
+      text-align: center;
+    }
+
+    h3 {
+      margin-bottom: 12px;
+      padding-bottom: 6px;
+      border-bottom: 2px solid #cbd5f5;
+      color: #0f172a;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 24px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    ul li {
+      margin-bottom: 8px;
+      line-height: 1.6;
+    }
+
+    /* ===== MOBILE ===== */
+    @media (max-width: 768px) {
+      .container {
+        padding: 16px;
+      }
+
+      header {
+        padding: 40px 16px;
+      }
+
+      header h1 {
+        font-size: 32px;
+      }
+
+      header h2 {
+        font-size: 18px;
+      }
+
+      .header-links a {
+        display: block;
+        width: 100%;
+        margin: 8px 0;
+      }
+
+      .grid {
+        grid-template-columns: 1fr;
+      }
+
+      .floating-links {
+        right: 10px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- FLOATING LINKS -->
+  <div class="floating-links" id="floatingLinks">
+    <a href="https://drive.google.com/file/d/1t_0I5vWDKq7X9x3N2NxLvHsoaIbY11wi/view" target="_blank">See Portfolio</a>
+    <a href="https://www.linkedin.com/in/vinayakkadam26" target="_blank">See LinkedIn</a>
+  </div>
+
+  <!-- HEADER -->
+  <header class="card container" id="mainHeader">
+    <h1>Vinayak Madhukar Kadam</h1>
+    <h2>BIM Engineer | Structural • Precast • Infrastructure</h2>
+    <p>📞 9370441367 | 📧 vinayak.mk@outlook.com</p>
+
+    <div class="header-links">
+      <a href="https://drive.google.com/file/d/1t_0I5vWDKq7X9x3N2NxLvHsoaIbY11wi/view" target="_blank">See Portfolio</a>
+      <a href="https://www.linkedin.com/in/vinayakkadam26" target="_blank">See LinkedIn</a>
+    </div>
+  </header>
+
+  <div class="container">
+
+    <!-- ABOUT ME -->
+    <section class="card">
+      <h3>About Me</h3>
+      <p>
+        Motivated and detail-oriented BIM Engineer with experience in Structural,
+        MEP, and Precast BIM modeling. Skilled in delivering accurate 3D BIM models,
+        coordinated drawings, and ISO 19650 compliant documentation for infrastructure
+        and building projects.
+      </p>
+    </section>
+
+    <!-- SKILLS + EXPERIENCE -->
+    <section class="grid">
+
+      <!-- LEFT -->
+      <div>
+        <div class="card">
+          <h3>Software Skills</h3>
+          <ul>
+            <li>Autodesk Revit (Structure & BIM)</li>
+            <li>AutoCAD</li>
+            <li>Navisworks</li>
+            <li>Tekla Structures</li>
+            <li>BIM 360 / CDE</li>
+            <li>Civil 3D</li>
+            <li>STAAD Pro</li>
+            <li>Bluebeam Revu</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Education</h3>
+          <strong>Bachelor of Civil Engineering</strong><br />
+          JSPM Narhe Technical Campus, Pune (2020 – 2023)
+          <p style="margin-top:8px;">
+            <strong>Final Year Project:</strong> Developing Biofilter using Algae & Slaked Lime for Air Pollution Control
+          </p>
+        </div>
+      </div>
+
+      <!-- RIGHT -->
+      <div class="card">
+        <h3>Professional Experience</h3>
+
+        <strong>Revit Modeler – Precision Precast Solution, Pune</strong><br />
+        September 2025 – Present
+        <ul>
+          <li>Prepared precast shop drawings with reinforcement and connection details.</li>
+          <li>Produced sections, elevations, and technical drawings.</li>
+          <li>Ensured compliance with standards and client requirements.</li>
+          <li>Maintained drawing accuracy and version control.</li>
+        </ul>
+
+        <br />
+
+        <strong>Senior Project Engineer – Noren Tech, Pune</strong><br />
+        April 2024 – September 2025
+        <ul>
+          <li>Managed structural and MEP BIM models using Revit.</li>
+          <li>Performed clash detection and coordination using Navisworks.</li>
+          <li>Prepared construction-ready drawings from coordinated models.</li>
+          <li>Worked on Jakarta Metro Line infrastructure project.</li>
+        </ul>
+
+        <br />
+
+        <strong>Professional Trainee – Novatr (Jakarta Metro Line – Infrastructure BIM)</strong>
+        <ul>
+          <li>Developed structural BIM models using Autodesk Revit.</li>
+          <li>Coordinated architectural, structural, and MEP models.</li>
+          <li>Performed clash detection and constructability analysis.</li>
+          <li>Worked in Common Data Environment (CDE) workflows.</li>
+          <li>Delivered LOD 300–400 models and drawings.</li>
+        </ul>
+      </div>
+
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="card">
+      <h3>Projects</h3>
+
+      <strong>Jakarta Metro Line – Infrastructure BIM</strong>
+      <ul>
+        <li>Structural BIM modeling using Revit</li>
+        <li>Coordination with architectural & MEP models</li>
+        <li>Clash detection and issue resolution</li>
+        <li>LOD 300–400 models and drawings</li>
+      </ul>
+
+      <br />
+
+      <strong>Precast Building Project – Pune</strong>
+      <ul>
+        <li>Precast element modeling and detailing</li>
+        <li>Shop drawings with reinforcement details</li>
+        <li>Coordination with site and design team</li>
+      </ul>
+    </section>
+
+  </div>
+
+  <!-- JS FOR FLOATING VISIBILITY -->
+  <script>
+    const header = document.getElementById("mainHeader");
+    const floating = document.getElementById("floatingLinks");
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        floating.style.display = entry.isIntersecting ? "none" : "flex";
+      },
+      { threshold: 0.1 }
+    );
+
+    observer.observe(header);
+  </script>
+
+</body>
+</html>
